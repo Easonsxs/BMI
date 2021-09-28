@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="css/bmi.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row header text-center">
+            <!-- 圖片 -->
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="images/BMICLogo.png">
+            </div>
+            <!-- 輸入區塊 -->
+            <div class="col-lg-4 col-md-4 col-sm-12 text">
+                <p>身高 cm</p>
+                <input type="text" placeholder="請輸入身高" class="height">
+                <p>體重 kg</p>
+                <input type="text" placeholder="請輸入體重" class="weight">
+            </div>
+            <!-- 按鈕 -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="button">
+                    <p>看結果</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 紀錄區域 -->
+    <main>
+        <div class="fixed-width">
+            <h2>BMI紀錄</h2>
+            <div class="content row">
+                <div class="container col-sm-12">
+                    <div class="colorBox">
+                        <p><span>理想</span>BMI<span>20.90</span>weight<span>70kg</span>height<span>180cm</span>06-19-2020</p>
+                    </div>
+                </div>
+            </div>
+            <p class="clearHistory">清除紀錄</p>
+        </div>
+    </main>
+    <footer>
+        <div class="fixed-width">
+            <img src="images/BMICLogo-gray.png" class="img2"></div>
+    </footer>
+    <script src="js/bmi.js"></script>
+</body>
+
+</html>

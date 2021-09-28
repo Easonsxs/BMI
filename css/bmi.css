@@ -1,0 +1,191 @@
+/*header*/
+header {
+    background: #424242;
+    max-width: 1024px;
+    /*min-height: 300px;*/
+    margin: auto;
+}
+
+.header {
+    /*background: #ccc;*/
+    padding: 50px;
+}
+
+.header img {
+    height: 117px;
+    width: 117px;
+    margin-top: 20px;
+}
+
+
+
+.header .text p {
+    color: #FFD366;
+    margin: 0;
+    text-align: left;
+    font-size: 18px;
+    display: block;
+}
+
+.header input {
+    color: #FFFFFF;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    text-indent: 2rem;
+}
+
+
+
+/*.button div {
+    background: #FFD366;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 60px;
+    transition: background color 0.3s;
+}
+.button div:active{
+    background: #EFC50F;
+    transition: background 0.3s;
+}*/
+
+.button{
+    background:  #FFD366;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: box-shadow 0.4s;
+    margin: auto;
+}   
+
+.button:hover{
+    box-shadow:0 1px 6px 3px rgba(255,195,49,0.64);
+    transition: box-shadow 0.4s;
+}
+.button:active, .button2:active{
+    background: #DEA821;
+    box-shadow: none;
+}
+
+.button p {
+    /*text-align: center;*/
+    font-size: 24px;
+    color: #424242;
+    padding-top: 40px;
+    margin: 20px;
+}
+
+/*記錄區域*/
+
+main .fixed-width {
+    max-width: 1024px;
+    background-color: #F5F8E6;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+main h2 {
+    font-family: .SFNSDisplay;
+    font-size: 24px;
+    color: #424242;
+    text-align: center;
+    line-height: 100px;
+}
+
+.clearHistory{
+    display: block;
+    text-align: center;
+    width: 150px;
+    border: 1px solid #ccc;
+    margin: 100px auto 0 auto;
+    line-height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(125, 111, 76, 0.2);
+    transition: background-color 0.3s;
+}
+
+.clearHistory:hover{
+    background-color: rgba(122, 106, 66, 0.3);
+    transition: background-color 0.3s;
+}
+.clearHistory:active{
+    background-color: rgba(122, 106, 66, 0.5);
+}
+.container > div{
+	background: #fff;
+	width: 624px;
+	margin: auto;
+	margin-bottom: 16px;
+	color: #424242;
+	line-height: 62px;
+	text-align: center;
+}
+.container p{
+	font-size: 12px;
+}
+
+.container span{
+	font-size: 20px;
+	margin-right: 50px;
+}
+
+.container span:first-child{
+	margin-right: 60px;
+}
+.container span:last-child{
+	margin-right: 50px;
+}
+
+
+
+
+/*邊線樣式*/
+#normal{
+	border-left: 7px #86D73F solid;
+}
+#light{
+	border-left: 7px #31BAF9 solid;
+}
+#overweight{
+	border-left: 7px #FF982D solid;
+}
+#mildlyFat{
+	border-left: 7px #FF6C02 solid;
+}
+#mediumFat{
+	border-left: 7px #FF6C02 solid;
+}
+#severeFat{
+	border-left: 7px #FF1200  solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer .fixed-width{
+    max-width: 1024px;
+    background-color: #fdd366;
+    margin: auto;
+    height: 90px;
+    padding: 20px;
+}
+
+footer img{
+	width: 55px;
+	height: 55px;
+	margin: auto;
+	display: block;
+	
+}
